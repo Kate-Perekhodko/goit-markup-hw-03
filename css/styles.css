@@ -81,7 +81,77 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
+.title-main {
+  max-width: 496px;
+}
+/* Стилі для кнопок */
+.button-main {
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+}
 
+.button-main:hover,
+.button-main:focus {
+  background-color: #404bbf;
+}
+/* Секція друга */
+
+.container-title-small {
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+}
+.title-big-section-two {
+  visibility: hidden;
+}
+.main-section-two {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.main-li-section-two {
+  width: calc((100% - 72px) / 4);
+}
+.title-small-section-two {
+  margin-bottom: 8px;
+}
+
+/* секція третя */
+.container-title-our-team {
+  padding: 120px 0;
+}
+.title-big-our-time {
+  margin-bottom: 72px;
+}
+.main-section-three {
+  display: flex;
+  gap: 24px;
+}
+.team-member-container {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-position {
+  padding: 32px 0;
+}
+.title-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.subtitle-position {
+  text-align: center;
+}
 /* Загальні стилі для заголовків */
 .title {
   font-family: Roboto, sans-serif;
@@ -109,24 +179,6 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 10px;
-}
-
-/* Стилі для кнопок */
-.button {
-  background-color: #4d5ae5;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  border: none;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
 }
 
 /* Стилі для навігації */
