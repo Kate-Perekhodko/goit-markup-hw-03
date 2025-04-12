@@ -152,6 +152,7 @@ p {
 .subtitle-position {
   text-align: center;
 }
+
 /* Загальні стилі для заголовків */
 .title {
   font-family: Roboto, sans-serif;
@@ -275,6 +276,7 @@ p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 20px;
+  padding: 100px 0;
 }
 
 /* Стилі для елементів списку */
@@ -316,6 +318,8 @@ ul {
   text-decoration: none;
   margin-bottom: 20px;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span {
