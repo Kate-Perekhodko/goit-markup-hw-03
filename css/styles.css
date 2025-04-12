@@ -16,6 +16,44 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.top-nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-ul {
+  display: flex;
+  align-self: center;
+  gap: 40px;
+}
+.top-ul-address {
+  display: flex;
+  align-self: center;
+  gap: 40px;
+}
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 li {
@@ -28,6 +66,11 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Загальні стилі для заголовків */
@@ -106,6 +149,8 @@ p {
 } /* Зміна кольору при наведенні та фокусі */
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500; /* Визначає жирність шрифту */
   font-size: 16px; /* Визначає розмір шрифта */
   line-height: 1.5; /* Визначає простір між рядками */
@@ -219,13 +264,16 @@ ul {
 .main-address {
   margin-top: 20px;
   font-style: normal;
+  margin-left: auto;
 }
 
 .top-ul-address {
-  list-style: none;
+  list-stylel: none;
 }
 
 .contact-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
