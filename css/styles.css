@@ -356,6 +356,9 @@ ul {
   text-transform: uppercase;
   display: inline-block;
 }
+.footer-logo {
+  margin-bottom: 16px;
+}
 
 .logo-span {
   color: #2e2f42;
