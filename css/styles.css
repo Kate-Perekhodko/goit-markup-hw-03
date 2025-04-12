@@ -11,7 +11,7 @@ a {
   font-size: 12px;
   letter-spacing: 4%;
   line-height: 16px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul {
@@ -153,6 +153,34 @@ p {
   text-align: center;
 }
 
+/* Секція четверта */
+.container-title-our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.title-big-our-portfolio {
+  margin-bottom: 72px;
+}
+.main-section-four {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.main-li-section-four {
+  width: calc((100% - 48px) / 3);
+}
+.title-small-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+/* Футер */
+.footer-last-container {
+  padding: 100px 0;
+}
+
 /* Загальні стилі для заголовків */
 .title {
   font-family: Roboto, sans-serif;
@@ -262,6 +290,7 @@ p {
 .footer-container {
   background-color: #2e2f42;
   text-align: center;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-text {
@@ -276,7 +305,6 @@ p {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 20px;
-  padding: 100px 0;
 }
 
 /* Стилі для елементів списку */
@@ -299,6 +327,7 @@ li {
 
 img {
   margin-bottom: 15px;
+  display: block;
 }
 
 /* Адаптивність */
@@ -327,6 +356,8 @@ ul {
 }
 .footer-logo-span {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .main-address {
   margin-top: 20px;
