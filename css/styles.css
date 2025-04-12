@@ -126,9 +126,10 @@ p {
   display: flex;
   align-items: center;
 }
-.title-big-section-two {
+.visually-hidden {
   visibility: hidden;
 }
+
 .main-section-two {
   display: flex;
   align-items: center;
@@ -136,9 +137,6 @@ p {
 }
 .main-li-section-two {
   width: calc((100% - 72px) / 4);
-}
-.title-small-section-two {
-  margin-bottom: 8px;
 }
 
 /* секція третя */
@@ -221,7 +219,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 /* Стилі для навігації */
