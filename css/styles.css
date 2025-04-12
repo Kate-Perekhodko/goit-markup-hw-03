@@ -84,6 +84,18 @@ p {
 .title-main {
   max-width: 496px;
 }
+.main-container-one {
+  padding: 188px 0;
+  background-color: #2e2f42;
+  text-align: center;
+  height: 600px;
+}
+.container-title {
+  background-color: #2e2f42;
+  text-align: center;
+  height: 600px;
+}
+
 /* Стилі для кнопок */
 .button-main {
   background-color: #4d5ae5;
@@ -254,12 +266,6 @@ p {
 }
 
 /* Стилі для контейнерів */
-.container-title {
-  background-color: #2e2f42;
-  text-align: center;
-  height: 600px;
-  padding: 188px 0;
-}
 
 .container-title-our-team,
 .container-title-our-portfolio {
